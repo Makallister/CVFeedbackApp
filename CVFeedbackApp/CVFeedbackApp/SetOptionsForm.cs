@@ -39,6 +39,9 @@ namespace CVFeedbackApp
             newOption.GetOptionTitle(optionTitle);
             newOption.GetOptionMessage(optionMessage);
 
+            //Send Option to OptionSet
+
+
             //creates new form
             SetOptionsForm OptionForm2 = new SetOptionsForm();
             OptionForm2.ShowDialog(); 

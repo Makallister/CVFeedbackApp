@@ -15,3 +15,6 @@ C:\Users\Francesc\Desktop\CVFeedbackApp\CVFeedbackApp\obj\Debug\CVFeedbackApp.Se
 C:\Users\Francesc\Desktop\CVFeedbackApp\CVFeedbackApp\obj\Debug\CVFeedbackApp.csproj.GenerateResource.Cache
 C:\Users\Francesc\Desktop\CVFeedbackApp\CVFeedbackApp\obj\Debug\CVFeedbackApp.exe
 C:\Users\Francesc\Desktop\CVFeedbackApp\CVFeedbackApp\obj\Debug\CVFeedbackApp.pdb
+C:\Users\Francesc\Documents\GitHub\CVFeedbackApp\CVFeedbackApp\CVFeedbackApp\bin\Debug\CVFeedbackApp.exe.config
+C:\Users\Francesc\Documents\GitHub\CVFeedbackApp\CVFeedbackApp\CVFeedbackApp\obj\Debug\CVFeedbackApp.exe
+C:\Users\Francesc\Documents\GitHub\CVFeedbackApp\CVFeedbackApp\CVFeedbackApp\obj\Debug\CVFeedbackApp.pdb

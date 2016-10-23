@@ -28,39 +28,41 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.richTextBox1 = new System.Windows.Forms.RichTextBox();
+            this.HeaderTextBox = new System.Windows.Forms.RichTextBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.richTextBox2 = new System.Windows.Forms.RichTextBox();
+            this.FooterTextBox = new System.Windows.Forms.RichTextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.SaveHeaderAndFooter = new System.Windows.Forms.Button();
             this.LoadTemplate = new System.Windows.Forms.Button();
             this.PreviewCurrentTemplate = new System.Windows.Forms.Button();
+            this.TitleTextBox = new System.Windows.Forms.TextBox();
+            this.label3 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // richTextBox1
+            // HeaderTextBox
             // 
-            this.richTextBox1.Location = new System.Drawing.Point(35, 60);
-            this.richTextBox1.Name = "richTextBox1";
-            this.richTextBox1.Size = new System.Drawing.Size(541, 169);
-            this.richTextBox1.TabIndex = 0;
-            this.richTextBox1.Text = "";
+            this.HeaderTextBox.Location = new System.Drawing.Point(35, 109);
+            this.HeaderTextBox.Name = "HeaderTextBox";
+            this.HeaderTextBox.Size = new System.Drawing.Size(541, 169);
+            this.HeaderTextBox.TabIndex = 0;
+            this.HeaderTextBox.Text = "";
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(35, 41);
+            this.label1.Location = new System.Drawing.Point(32, 81);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(42, 13);
             this.label1.TabIndex = 1;
             this.label1.Text = "Header";
             // 
-            // richTextBox2
+            // FooterTextBox
             // 
-            this.richTextBox2.Location = new System.Drawing.Point(35, 312);
-            this.richTextBox2.Name = "richTextBox2";
-            this.richTextBox2.Size = new System.Drawing.Size(538, 176);
-            this.richTextBox2.TabIndex = 2;
-            this.richTextBox2.Text = "";
+            this.FooterTextBox.Location = new System.Drawing.Point(35, 312);
+            this.FooterTextBox.Name = "FooterTextBox";
+            this.FooterTextBox.Size = new System.Drawing.Size(538, 176);
+            this.FooterTextBox.TabIndex = 2;
+            this.FooterTextBox.Text = "";
             // 
             // label2
             // 
@@ -101,18 +103,36 @@
             this.PreviewCurrentTemplate.UseVisualStyleBackColor = true;
             this.PreviewCurrentTemplate.MouseClick += new System.Windows.Forms.MouseEventHandler(this.PreviewCurrentTemplate_MouseClick);
             // 
+            // TitleTextBox
+            // 
+            this.TitleTextBox.Location = new System.Drawing.Point(35, 52);
+            this.TitleTextBox.Name = "TitleTextBox";
+            this.TitleTextBox.Size = new System.Drawing.Size(100, 20);
+            this.TitleTextBox.TabIndex = 8;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(35, 33);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(27, 13);
+            this.label3.TabIndex = 9;
+            this.label3.Text = "Title";
+            // 
             // CreateNewTemplateForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(761, 639);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.TitleTextBox);
             this.Controls.Add(this.PreviewCurrentTemplate);
             this.Controls.Add(this.LoadTemplate);
             this.Controls.Add(this.SaveHeaderAndFooter);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.richTextBox2);
+            this.Controls.Add(this.FooterTextBox);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.richTextBox1);
+            this.Controls.Add(this.HeaderTextBox);
             this.Name = "CreateNewTemplateForm";
             this.Text = "CreateNewTemplateForm";
             this.ResumeLayout(false);
@@ -122,12 +142,14 @@
 
         #endregion
 
-        private System.Windows.Forms.RichTextBox richTextBox1;
+        private System.Windows.Forms.RichTextBox HeaderTextBox;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.RichTextBox richTextBox2;
+        private System.Windows.Forms.RichTextBox FooterTextBox;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button SaveHeaderAndFooter;
         private System.Windows.Forms.Button LoadTemplate;
         private System.Windows.Forms.Button PreviewCurrentTemplate;
+        private System.Windows.Forms.TextBox TitleTextBox;
+        private System.Windows.Forms.Label label3;
     }
 }

@@ -68,6 +68,7 @@
             this.EditPreviousOptions.TabIndex = 3;
             this.EditPreviousOptions.Text = "<< Previous";
             this.EditPreviousOptions.UseVisualStyleBackColor = true;
+            this.EditPreviousOptions.MouseClick += new System.Windows.Forms.MouseEventHandler(this.EditPreviousOptions_MouseClick);
             // 
             // AddOptionSet
             // 

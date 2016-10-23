@@ -20,9 +20,23 @@ namespace CVFeedbackApp
         private void SaveOptionCategory_MouseClick(object sender, MouseEventArgs e)
         {
             this.Hide();
+            //Temporary Strings holding values from textbox
             string optionSetTitle = OptionSetTitle.Text;
+
+            //Creates new OptionSet
+            OptionSet newOptionSet = new OptionSet();
+
+            //Calls constructors
+            newOptionSet.GetOptionSetTitle(optionSetTitle);
+
+            //Creates and displays new OptionForm
             SetOptionsForm OptionForm1 = new SetOptionsForm();
             OptionForm1.ShowDialog();
+        }
+
+        private void EditPreviousOptions_MouseClick(object sender, MouseEventArgs e)
+        {
+            //Go to previous
         }
     }
 }
