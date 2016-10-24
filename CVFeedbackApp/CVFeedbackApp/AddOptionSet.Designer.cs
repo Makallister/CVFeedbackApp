@@ -81,6 +81,7 @@
             this.Controls.Add(this.OptionSetTitle);
             this.Name = "AddOptionSet";
             this.Text = "AddOptionSet";
+            this.Load += new System.EventHandler(this.AddOptionSet_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

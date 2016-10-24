@@ -79,12 +79,6 @@
     <Compile Include="EditTemplateForm.Designer.cs">
       <DependentUpon>EditTemplateForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="ErrorForm.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="ErrorForm.Designer.cs">
-      <DependentUpon>ErrorForm.cs</DependentUpon>
-    </Compile>
     <Compile Include="FirstMenuForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -114,6 +108,7 @@
     <Compile Include="ReplyForm.Designer.cs">
       <DependentUpon>ReplyForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="SetOptionsErrorCheck.cs" />
     <Compile Include="SetOptionsForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -128,9 +123,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="EditTemplateForm.resx">
       <DependentUpon>EditTemplateForm.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="ErrorForm.resx">
-      <DependentUpon>ErrorForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FirstMenuForm.resx">
       <DependentUpon>FirstMenuForm.cs</DependentUpon>

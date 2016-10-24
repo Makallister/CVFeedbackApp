@@ -30,7 +30,6 @@ C:\Users\tom\Documents\GitHub\CVFeedbackApp\CVFeedbackApp\CVFeedbackApp\obj\Debu
 C:\Users\tom\Documents\GitHub\CVFeedbackApp\CVFeedbackApp\CVFeedbackApp\obj\Debug\CVFeedbackApp.AddOptionSet.resources
 C:\Users\tom\Documents\GitHub\CVFeedbackApp\CVFeedbackApp\CVFeedbackApp\obj\Debug\CVFeedbackApp.CreateNewTemplateForm.resources
 C:\Users\tom\Documents\GitHub\CVFeedbackApp\CVFeedbackApp\CVFeedbackApp\obj\Debug\CVFeedbackApp.EditTemplateForm.resources
-C:\Users\tom\Documents\GitHub\CVFeedbackApp\CVFeedbackApp\CVFeedbackApp\obj\Debug\CVFeedbackApp.ErrorForm.resources
 C:\Users\tom\Documents\GitHub\CVFeedbackApp\CVFeedbackApp\CVFeedbackApp\obj\Debug\CVFeedbackApp.FirstMenuForm.resources
 C:\Users\tom\Documents\GitHub\CVFeedbackApp\CVFeedbackApp\CVFeedbackApp\obj\Debug\CVFeedbackApp.LoadForm.resources
 C:\Users\tom\Documents\GitHub\CVFeedbackApp\CVFeedbackApp\CVFeedbackApp\obj\Debug\CVFeedbackApp.PreviewForm.resources

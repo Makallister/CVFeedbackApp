@@ -73,6 +73,7 @@
             this.NewOptionSet.TabIndex = 3;
             this.NewOptionSet.Text = "Save and add other option set";
             this.NewOptionSet.UseVisualStyleBackColor = true;
+            this.NewOptionSet.Click += new System.EventHandler(this.NewOptionSet_Click);
             this.NewOptionSet.MouseClick += new System.Windows.Forms.MouseEventHandler(this.NewOptionSet_MouseClick);
             // 
             // textBox2
@@ -127,6 +128,7 @@
             this.EditPreviousOptionSetTitle.TabIndex = 10;
             this.EditPreviousOptionSetTitle.Text = "<< Previous";
             this.EditPreviousOptionSetTitle.UseVisualStyleBackColor = true;
+            this.EditPreviousOptionSetTitle.Click += new System.EventHandler(this.EditPreviousOptionSetTitle_Click);
             this.EditPreviousOptionSetTitle.MouseClick += new System.Windows.Forms.MouseEventHandler(this.EditPreviousOptionSetTitle_MouseClick);
             // 
             // SetOptionsForm
