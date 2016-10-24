@@ -17,13 +17,8 @@ namespace CVFeedbackApp
             InitializeComponent();
         }
 
-        //TODO Change error handling so that it stops the user until they correct the error
-        // instead of just warning them
-        //private bool IsTextempty()
-        //{
-        //    if (string.IsNullOrEmpty(title))
-        //        return true;
         
+
         private void SaveHeaderAndFooter_MouseClick(object sender, MouseEventArgs e)
         {
             this.Hide();
@@ -43,14 +38,14 @@ namespace CVFeedbackApp
                 errorForm.Show();
             }
 
-            if (string.IsNullOrEmpty(header))
+            else if (string.IsNullOrEmpty(header))
             {
                 //TODO code for handling here
                 ErrorForm errorForm = new CVFeedbackApp.ErrorForm();
                 errorForm.Show();
             }
 
-            if (string.IsNullOrEmpty(footer))
+            else if (string.IsNullOrEmpty(footer))
             {
                 //TODO code for handling here
                 ErrorForm errorForm = new CVFeedbackApp.ErrorForm();
@@ -87,6 +82,11 @@ namespace CVFeedbackApp
             //creates Preview Form and displays it
             PreviewForm newPreviewForm = new PreviewForm();
             newPreviewForm.ShowDialog();
+        }
+
+        private void CreateNewTemplateForm_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
