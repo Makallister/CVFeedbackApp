@@ -41,6 +41,7 @@
             this.NewTemplateButton.TabIndex = 0;
             this.NewTemplateButton.Text = "Create New Template";
             this.NewTemplateButton.UseVisualStyleBackColor = true;
+            this.NewTemplateButton.Click += new System.EventHandler(this.NewTemplateButton_Click);
             this.NewTemplateButton.MouseClick += new System.Windows.Forms.MouseEventHandler(this.NewTemplateButton_MouseClick);
             // 
             // EditTemplateButton
