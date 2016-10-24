@@ -7,27 +7,16 @@ using System.Windows.Forms;
 
 namespace CVFeedbackApp
 {
-    //doesn't work yet
-    //class SetOptionsError
+    ////doesn't work yet
+    //public class SetOptionsError
     //{
-    //    public void SetOptions2ErrorCheck()
+    //    public string title;
+    //    public Boolean SetOptions2ErrorCheck()
     //    {
     //        //is there text in the field?
-    //        if (string.IsNullOrEmpty(optionMessage))
-    //        {
-    //            if (MessageBox.Show("One or more fields contain no text, you must go back.", "Warning", MessageBoxButtons.OK, MessageBoxIcon.Stop) == DialogResult.OK) ;
-    //            {
-    //                //what do do when button pressed
-    //                this.Hide();
-
-    //                OptionForm2.ShowDialog();
-    //            }
-    //        }
-    //        else
-    //        {
-    //            //continue
-    //        }
+    //        if (bool result = string.IsNullOrEmpty(title));
     //    }
-        
     //}
+
+
 }

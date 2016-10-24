@@ -61,5 +61,10 @@ namespace CVFeedbackApp
         {
 
         }
+
+        private void SaveOptionCategory_Click(object sender, EventArgs e)
+        {
+            
+        }
     }
 }

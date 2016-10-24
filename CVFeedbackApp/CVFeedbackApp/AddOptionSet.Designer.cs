@@ -30,7 +30,7 @@
         {
             this.OptionSetTitle = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.SaveOtionCategory = new System.Windows.Forms.Button();
+            this.SaveOptionCategory = new System.Windows.Forms.Button();
             this.EditPreviousOptions = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
@@ -50,15 +50,16 @@
             this.label1.TabIndex = 1;
             this.label1.Text = "Introduce a title of a section you want to comment on";
             // 
-            // SaveOtionCategory
+            // SaveOptionCategory
             // 
-            this.SaveOtionCategory.Location = new System.Drawing.Point(77, 236);
-            this.SaveOtionCategory.Name = "SaveOtionCategory";
-            this.SaveOtionCategory.Size = new System.Drawing.Size(89, 23);
-            this.SaveOtionCategory.TabIndex = 2;
-            this.SaveOtionCategory.Text = "Next >>";
-            this.SaveOtionCategory.UseVisualStyleBackColor = true;
-            this.SaveOtionCategory.MouseClick += new System.Windows.Forms.MouseEventHandler(this.SaveOptionCategory_MouseClick);
+            this.SaveOptionCategory.Location = new System.Drawing.Point(77, 236);
+            this.SaveOptionCategory.Name = "SaveOptionCategory";
+            this.SaveOptionCategory.Size = new System.Drawing.Size(89, 23);
+            this.SaveOptionCategory.TabIndex = 2;
+            this.SaveOptionCategory.Text = "Next >>";
+            this.SaveOptionCategory.UseVisualStyleBackColor = true;
+            this.SaveOptionCategory.Click += new System.EventHandler(this.SaveOptionCategory_Click);
+            this.SaveOptionCategory.MouseClick += new System.Windows.Forms.MouseEventHandler(this.SaveOptionCategory_MouseClick);
             // 
             // EditPreviousOptions
             // 
@@ -76,7 +77,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(443, 303);
             this.Controls.Add(this.EditPreviousOptions);
-            this.Controls.Add(this.SaveOtionCategory);
+            this.Controls.Add(this.SaveOptionCategory);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.OptionSetTitle);
             this.Name = "AddOptionSet";
@@ -91,7 +92,7 @@
 
         private System.Windows.Forms.TextBox OptionSetTitle;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Button SaveOtionCategory;
+        private System.Windows.Forms.Button SaveOptionCategory;
         private System.Windows.Forms.Button EditPreviousOptions;
     }
 }

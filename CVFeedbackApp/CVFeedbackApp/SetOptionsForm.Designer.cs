@@ -63,6 +63,7 @@
             this.AddOptiontoSet.TabIndex = 2;
             this.AddOptiontoSet.Text = "Save and add other option";
             this.AddOptiontoSet.UseVisualStyleBackColor = true;
+            this.AddOptiontoSet.Click += new System.EventHandler(this.AddOptiontoSet_Click);
             this.AddOptiontoSet.MouseClick += new System.Windows.Forms.MouseEventHandler(this.AddOptiontoSet_MouseClick);
             // 
             // NewOptionSet
@@ -118,6 +119,7 @@
             this.FinishTemplate.TabIndex = 9;
             this.FinishTemplate.Text = "Save and Finish";
             this.FinishTemplate.UseVisualStyleBackColor = true;
+            this.FinishTemplate.Click += new System.EventHandler(this.FinishTemplate_Click);
             this.FinishTemplate.MouseClick += new System.Windows.Forms.MouseEventHandler(this.FinishTemplate_MouseClick);
             // 
             // EditPreviousOptionSetTitle

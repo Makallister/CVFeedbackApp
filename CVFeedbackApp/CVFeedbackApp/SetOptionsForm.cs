@@ -108,5 +108,15 @@ namespace CVFeedbackApp
         {
 
         }
+
+        private void AddOptiontoSet_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void FinishTemplate_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
