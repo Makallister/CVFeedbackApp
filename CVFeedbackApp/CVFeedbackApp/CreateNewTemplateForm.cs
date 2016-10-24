@@ -34,23 +34,30 @@ namespace CVFeedbackApp
             if (string.IsNullOrEmpty(title))
             {
                 //TODO code for handling here
-                ErrorForm errorForm = new CVFeedbackApp.ErrorForm();
-                errorForm.Show();
-            }
+                //ErrorForm errorForm = new CVFeedbackApp.ErrorForm();
+                //errorForm.Show();
 
-            else if (string.IsNullOrEmpty(header))
-            {
-                //TODO code for handling here
-                ErrorForm errorForm = new CVFeedbackApp.ErrorForm();
-                errorForm.Show();
+                //trying messagebox instead
+                DialogResult result1 =
+                MessageBox.Show("One or more fields contain no text, you must go back.", "Warning", MessageBoxButtons.OK , MessageBoxIcon.Stop);
+                
+                
             }
+            else { }
 
-            else if (string.IsNullOrEmpty(footer))
-            {
-                //TODO code for handling here
-                ErrorForm errorForm = new CVFeedbackApp.ErrorForm();
-                errorForm.Show();
-            }
+            //else if (string.IsNullOrEmpty(header))
+            //{
+            //    //TODO code for handling here
+            //    ErrorForm errorForm = new CVFeedbackApp.ErrorForm();
+            //    errorForm.Show();
+            //}
+
+            //else if (string.IsNullOrEmpty(footer))
+            //{
+            //    //TODO code for handling here
+            //    ErrorForm errorForm = new CVFeedbackApp.ErrorForm();
+            //    errorForm.Show();
+            //}
 
 
             //Using contructors from Generic template to store user input;
