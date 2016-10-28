@@ -19,22 +19,22 @@ namespace CVFeedbackApp
 
         
 
-        public void SaveHeaderAndFooter_MouseClick(object sender, MouseEventArgs e)
+        private void SaveHeaderAndFooter_MouseClick(object sender, MouseEventArgs e)
         {
             this.Hide();
             //Creates a new generic tempate
             GenericTemplate newGenericTemplate = new GenericTemplate();
 
-            //Temporary storing strings set by textboxes
+            //Temporary storing strings set by user input into textboxes
             string title = TitleTextBox.Text;
             string header = HeaderTextBox.Text;
             string footer = FooterTextBox.Text;
 
-            //Exception Handling for "get" methods
+            //Exception Handling for "get" 
 
             //is there text in the field?
 
-            if (string.IsNullOrEmpty(title))
+            if (string.IsNullOrWhiteSpace (title))
             {
                 //TODO code for handling here
                 //ErrorForm errorForm = new CVFeedbackApp.ErrorForm();
@@ -54,7 +54,7 @@ namespace CVFeedbackApp
                 //continue
             }
             //is there text in the field?
-            if (string.IsNullOrEmpty(header))
+            if (string.IsNullOrWhiteSpace (header))
             {
                 if (MessageBox.Show("One or more fields contain no text, you must go back.", "Warning", MessageBoxButtons.OK, MessageBoxIcon.Stop) == DialogResult.OK) ;
                 {
@@ -69,7 +69,7 @@ namespace CVFeedbackApp
                 //continue
             }
             //is there text in the field?
-            if (string.IsNullOrEmpty(footer))
+            if (string.IsNullOrWhiteSpace (footer))
             {
                 if (MessageBox.Show("One or more fields contain no text, you must go back.", "Warning", MessageBoxButtons.OK, MessageBoxIcon.Stop) == DialogResult.OK) ;
                 {
