@@ -63,6 +63,7 @@
             this.AddOptiontoSet.TabIndex = 2;
             this.AddOptiontoSet.Text = "Save and add other option";
             this.AddOptiontoSet.UseVisualStyleBackColor = true;
+            this.AddOptiontoSet.Click += new System.EventHandler(this.AddOptiontoSet_Click);
             this.AddOptiontoSet.MouseClick += new System.Windows.Forms.MouseEventHandler(this.AddOptiontoSet_MouseClick);
             // 
             // NewOptionSet
@@ -73,6 +74,7 @@
             this.NewOptionSet.TabIndex = 3;
             this.NewOptionSet.Text = "Save and add other option set";
             this.NewOptionSet.UseVisualStyleBackColor = true;
+            this.NewOptionSet.Click += new System.EventHandler(this.NewOptionSet_Click);
             this.NewOptionSet.MouseClick += new System.Windows.Forms.MouseEventHandler(this.NewOptionSet_MouseClick);
             // 
             // textBox2
@@ -117,6 +119,7 @@
             this.FinishTemplate.TabIndex = 9;
             this.FinishTemplate.Text = "Save and Finish";
             this.FinishTemplate.UseVisualStyleBackColor = true;
+            this.FinishTemplate.Click += new System.EventHandler(this.FinishTemplate_Click);
             this.FinishTemplate.MouseClick += new System.Windows.Forms.MouseEventHandler(this.FinishTemplate_MouseClick);
             // 
             // EditPreviousOptionSetTitle
@@ -127,6 +130,7 @@
             this.EditPreviousOptionSetTitle.TabIndex = 10;
             this.EditPreviousOptionSetTitle.Text = "<< Previous";
             this.EditPreviousOptionSetTitle.UseVisualStyleBackColor = true;
+            this.EditPreviousOptionSetTitle.Click += new System.EventHandler(this.EditPreviousOptionSetTitle_Click);
             this.EditPreviousOptionSetTitle.MouseClick += new System.Windows.Forms.MouseEventHandler(this.EditPreviousOptionSetTitle_MouseClick);
             // 
             // SetOptionsForm

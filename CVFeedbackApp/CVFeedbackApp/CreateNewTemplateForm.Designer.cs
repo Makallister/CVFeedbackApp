@@ -135,6 +135,7 @@
             this.Controls.Add(this.HeaderTextBox);
             this.Name = "CreateNewTemplateForm";
             this.Text = "CreateNewTemplateForm";
+            this.Load += new System.EventHandler(this.CreateNewTemplateForm_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

@@ -39,6 +39,9 @@ namespace CVFeedbackApp
             NewReplyForm.ShowDialog();
         }
 
-       
+        private void NewTemplateButton_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

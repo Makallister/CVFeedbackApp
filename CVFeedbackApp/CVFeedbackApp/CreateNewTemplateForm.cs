@@ -17,16 +17,72 @@ namespace CVFeedbackApp
             InitializeComponent();
         }
 
+        
+
         private void SaveHeaderAndFooter_MouseClick(object sender, MouseEventArgs e)
         {
             this.Hide();
             //Creates a new generic tempate
             GenericTemplate newGenericTemplate = new GenericTemplate();
 
-            //Temporary storing strings set by textboxes
+            //Temporary storing strings set by user input into textboxes
             string title = TitleTextBox.Text;
             string header = HeaderTextBox.Text;
             string footer = FooterTextBox.Text;
+
+            //Exception Handling for "get" 
+
+            //is there text in the field?
+
+            if (string.IsNullOrWhiteSpace (title))
+            {
+                //TODO code for handling here
+                //ErrorForm errorForm = new CVFeedbackApp.ErrorForm();
+                //errorForm.Show();
+
+                //trying messagebox instead of a form
+                if (MessageBox.Show("One or more fields contain no text, you must go back.", "Warning", MessageBoxButtons.OK, MessageBoxIcon.Stop) == DialogResult.OK) ;
+                {
+                    //what do do when button pressed
+                    this.Hide();
+                    CreateNewTemplateForm NewCreateNewTemplateForm = new CreateNewTemplateForm();
+                    NewCreateNewTemplateForm.ShowDialog();
+                }
+            }
+            else
+            {
+                //continue
+            }
+            //is there text in the field?
+            if (string.IsNullOrWhiteSpace (header))
+            {
+                if (MessageBox.Show("One or more fields contain no text, you must go back.", "Warning", MessageBoxButtons.OK, MessageBoxIcon.Stop) == DialogResult.OK) ;
+                {
+                    //what do do when button pressed
+                    this.Hide();
+                    CreateNewTemplateForm NewCreateNewTemplateForm = new CreateNewTemplateForm();
+                    NewCreateNewTemplateForm.ShowDialog();
+                }
+            }
+            else
+            {
+                //continue
+            }
+            //is there text in the field?
+            if (string.IsNullOrWhiteSpace (footer))
+            {
+                if (MessageBox.Show("One or more fields contain no text, you must go back.", "Warning", MessageBoxButtons.OK, MessageBoxIcon.Stop) == DialogResult.OK) ;
+                {
+                    //what do do when button pressed
+                    this.Hide();
+                    CreateNewTemplateForm NewCreateNewTemplateForm = new CreateNewTemplateForm();
+                    NewCreateNewTemplateForm.ShowDialog();
+                }
+            }
+            else
+            {
+                //continue
+            }
 
             //Using contructors from Generic template to store user input;
             newGenericTemplate.GetTemplateTitle(title);
@@ -57,6 +113,11 @@ namespace CVFeedbackApp
             //creates Preview Form and displays it
             PreviewForm newPreviewForm = new PreviewForm();
             newPreviewForm.ShowDialog();
+        }
+
+        private void CreateNewTemplateForm_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
