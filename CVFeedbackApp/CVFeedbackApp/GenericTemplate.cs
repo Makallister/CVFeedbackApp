@@ -12,6 +12,7 @@ namespace CVFeedbackApp
         private string templateTitle;
         private string header;
         private string footer;
+        //private List<OptionSet> OptionSet1;
 
         //constructors
 
@@ -27,6 +28,10 @@ namespace CVFeedbackApp
         {
             footer = gotFooter;
         }
+        //public void AddOption (OptionSet AddedOption)
+        //{
+
+        //}
     }
 
 }
